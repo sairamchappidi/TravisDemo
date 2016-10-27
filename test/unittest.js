@@ -1,4 +1,6 @@
-import CodeToTest from "../src/codetotest.js"
+var CodeToTest = require("../app/codetotest.js")
+var chai = require('chai')
+var expect = chai.expect;
 describe("Testing Two Numbers", function() {
     var a = 4,b = 3;
     beforeEach(function() {
@@ -10,12 +12,9 @@ describe("Testing Two Numbers", function() {
         a=0,b=0;
     });
     it("Add Numbers", function() {
-        expect(CodeToTest.AddTwoNumbers(a,b)).toEqual(7);
+        expect(CodeToTest.AddTwoNumbers(a,b)).to.equal(7);
     });
     it("Multiply Numbers", function() {
-        expect(CodeToTest.MultiplyTwoNumbers(a,b)).toEqual(12);
+        expect(CodeToTest.MultiplyTwoNumbers(a,b)).to.equal(12);
     });
-    it("Compare Numbers to be Greater Than", function() {
-     expect(a).toBeGreaterThan(b);
- });
 });
