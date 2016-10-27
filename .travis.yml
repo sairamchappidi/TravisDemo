@@ -6,6 +6,5 @@ before_script:
   - chmod 0777 ./node_modules/.bin/mocha
   - npm install webpack
   - npm install chai
-  - npm install mocha
   - npm test
   - npm start
