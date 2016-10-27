@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack",
-    "test": "./node_modules/.bin/mocha"
+    "test": "mocha test"
   },
   "author": "",
   "license": "ISC",
