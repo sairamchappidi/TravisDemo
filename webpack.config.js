@@ -3,7 +3,7 @@
 /*var JasmineWebpackPlugin = require('jasmine-webpack-plugin');*/
 
 module.exports={
-	entry:'./spec/unittest.js',
+	entry:'./test/unittest.js',
 	output:{
 		filename:'./bundle.js'
 	},

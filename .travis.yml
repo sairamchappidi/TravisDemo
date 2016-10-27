@@ -7,4 +7,5 @@ before_script:
   - npm install webpack
   - npm install chai
   - npm test
+after_success:
   - npm start
