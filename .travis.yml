@@ -3,5 +3,5 @@ node_js:
   - "stable"
 script: webpack
 before_script:
-  - npm install webpack
+  - npm install
   - npm start
