@@ -3,5 +3,10 @@ node_js:
   - "stable"
 script: webpack
 before_script:
-  - npm install
+  - npm install webpack
+  - npm install babel-core
+  - npm install babel-loader
+  - npm install babel-preset-es2015
+  - npm install jasmine-core
+  - npm install jasmine-webpack-plugin
   - npm start
