@@ -2,3 +2,6 @@ langugae: node_js
 node_js:
   - "stable"
 script: webpack
+before_script:
+  -npm install
+  -npm start
