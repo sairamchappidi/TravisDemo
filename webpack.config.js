@@ -1,6 +1,6 @@
 /*var ExtractTextPlugin=require("extract-text-webpack-plugin");
 */
-var JasmineWebpackPlugin = require('jasmine-webpack-plugin');
+/*var JasmineWebpackPlugin = require('jasmine-webpack-plugin');*/
 
 module.exports={
 	entry:'./spec/unittest.js',
@@ -9,7 +9,7 @@ module.exports={
 	},
 	devServer:{
 		contentBase:'./'
-	},
+	}/*,
 	module:{
 		loaders:[
 		{
@@ -23,6 +23,6 @@ module.exports={
 		
 	]
 },
- plugins: [new JasmineWebpackPlugin()]
+ plugins: [new JasmineWebpackPlugin()]*/
 
 };
